@@ -1,0 +1,76 @@
+import React from "react";
+import scholarship from "../assets/scholarship.png";
+import internship from "../assets/intenship.png";
+import allowance from "../assets/allowance.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init({
+  offset: 200,
+      duration: 400,
+      delay: 100,
+
+});
+
+function Mission() {
+  return (
+    <div className="w-full px-4 bg-white">
+      <p className="w-full h-[4rem] flex items-center justify-center font-bold text-3xl ">
+        HOW WE HELP
+      </p>
+      <div className=" mx-auto md:grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div data-aos="zoom-out-left" data-aos-duration="1000" className="w-full border border-gray-300 border-t-0 flex my-8 flex-col items-center p-2 rounded-lg hover:scale-105 duration-300 ">
+          
+          <div className="h-[20rem] bg-yellow-200 flex">
+            <img
+              className=" mx-auto w-full object-contain bg-white"
+              src={scholarship}
+              alt=""
+            />
+          </div>
+
+          <p className="text-2xl font-bold text-center py-8">SCHOLARSHIPS</p>
+          <p>We provide scholarships opportunities for students.</p>
+        </div>
+        <div data-aos="zoom-out-down" data-aos-duration="1000" className="w-full border border-gray-300 border-t-0 flex my-8 flex-col items-center p-2 rounded-lg hover:scale-105 duration-300 ">
+          <div className="h-[20rem] bg-yellow-200 flex">
+            <img
+              className=" mx-auto w-full object-contain bg-white"
+              src={allowance}
+              alt=""
+            />
+          </div>
+
+          <p className="text-2xl font-bold text-center py-8">
+            {" "}
+            MONTHLY STIPEND
+          </p>
+          <p>
+            Scholars receive a monthly allowance to cover school and living
+            expenses.
+          </p>
+        </div>
+        <div data-aos="zoom-out-right" data-aos-duration="1000" className="w-full border border-gray-300 border-t-0 flex my-8 flex-col items-center p-2 rounded-lg hover:scale-105 duration-300 ">
+          <div className="h-[20rem] bg-yellow-200 flex">
+            <img
+              className=" mx-auto w-full object-contain bg-white"
+              src={internship}
+              alt=""
+            />
+          </div>
+
+          <p className="text-2xl font-bold text-center py-8">
+            {" "}
+            INTERNSHIP OPPORTUNITIES
+          </p>
+          <p>
+            {" "}
+            Scholars are paired with corporate and industry partners to apply
+            their learning in a practical setting.
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Mission;
