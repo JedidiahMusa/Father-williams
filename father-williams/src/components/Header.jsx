@@ -30,7 +30,7 @@ function Header() {
         </div>
 
         <div className="w-full lg:py-8 px-4 ">
-          <p data-aos="fade-up" data-aos-once="true" data-aos-duration="2000" className="flex text-center w-full justify-center font-[Anton] font-light mt-10 text-5xl md:text-6xl lg:text-7xl">
+          <p data-aos="zoom-in" data-aos-once="true" data-aos-duration="1500" className="flex text-center w-full justify-center font-[Anton] font-light mt-10 text-5xl md:text-6xl lg:text-7xl">
             PEACE AND EDUCATION ARE THE GREATEST EQUALIZERS
           </p>
         </div>
