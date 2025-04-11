@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <div className="w-full px-4 bg-black text-white pb-4 ">
-      <p className="w-full flex items-center text-3xl md:text-4xl font-bold justify-center h-[3.5rem] md:h-[4rem] ">
+      <p className="w-full flex font-[Anton] items-center text-4xl md:text-5xl justify-center h-[3.5rem] md:h-[4rem] ">
         WHO ARE WE?
       </p>
       <p className="text-2xl mt-4 ">

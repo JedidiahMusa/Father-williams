@@ -4,7 +4,7 @@ import fatherPic from "../assets/fatherPic.jpg"
 function OurTeam() {
   return (
     <div className='w-full px-4 bg-black text-white'>
-        <p  className='w-full h-[4rem] flex items-center justify-center font-bold text-3xl'>OUR TEAM</p>
+        <p  className='w-full h-[4rem] flex items-center font-[Anton] justify-center text-4xl md:text-5xl'>OUR TEAM</p>
         <div className='flex flex-col h-full md:grid grid-cols-2'>
             <div className='flex flex-col'>
                 <p className='text-3xl font-bold mt-6'>TRUSTEES</p>

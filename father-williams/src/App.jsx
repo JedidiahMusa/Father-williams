@@ -7,7 +7,6 @@ import Partners from './components/Partners';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import OurTeam from './components/OurTeam';
-import CarouselPage from './components/CarouselPage';
 
 function App() {
 
@@ -19,7 +18,6 @@ function App() {
     <Impact />
     <Partners />
     <Contact />
-    <CarouselPage />
     <OurTeam />
     <Footer />
     </>
