@@ -23,11 +23,11 @@ function CarouselPage() {
   };
 
   return (
-    <div className="w-full px-2">
+    <div className="w-full mb-4 px-2">
       <Carousel
       className="h-[25rem] w-full"
         swipeable={true}
-        draggable={false}
+        draggable={true}
         responsive={responsive}
         infinite={true}
         autoPlay={true}
