@@ -10,7 +10,7 @@ function Header() {
     <>
       <div
         style={{ backgroundImage: `url(${bgImage})` }}
-        className="w-full pb-4 lg:h-screen text-white bg-cover bg-center bg-no-repeat "
+        className="w-full lg:flex flex-col pb-4 lg:h-screen text-white bg-cover bg-center bg-no-repeat "
       >
         <div className="w-full p-4">
           <div className="w-full p-2 rounded-full bg-[#ffffff54] flex h-[6.5rem] md:h-[7.5rem] ">
@@ -34,17 +34,17 @@ function Header() {
             PEACE AND EDUCATION ARE THE GREATEST EQUALIZERS
           </p>
         </div>
-        <div>
+       
           
-          <div className="px-4 md:my-8 mt-4 lg:my-16 md:flex gap-6">
-            <button className="bg-[#ffb300] lg:h-[4.5rem] hover:scale-102 text-black h-[4rem] font-bold py-5 px-7 rounded-full w-full lg:text-[1.2rem]  mb-4">
+          <div className="px-4 md:my-8 w-full items-center justify-center lg:flex-1  mt-4 lg:my-16 md:flex gap-6">
+            <button className="bg-[#ffb300] lg:h-[4.5rem] hover:scale-102 text-black h-[4rem] font-bold py-3 px-7 rounded-full w-full lg:text-[1.2rem] md:mb-0 mb-4">
               APPLY FOR A SCHOLARSHIP
             </button>
-            <button className="bg-[#ffb300] lg:h-[4.5rem] hover:scale-102 px-2 text-black h-[4rem] font-bold py-3 flex items-center justify-center w-full lg:text-[1.2rem] rounded-full ">
+            <button className="bg-[#ffb300] lg:h-[4.5rem] hover:scale-102 px-7 text-black h-[4rem] font-bold py-3 w-full lg:text-[1.2rem] rounded-full ">
               REQUEST A BOREHOLE FOR YOUR COMMUNITY
             </button>
           </div>
-        </div>
+        
       </div>
     </>
   );
