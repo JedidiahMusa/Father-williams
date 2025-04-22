@@ -4,7 +4,7 @@ import CountUp from 'react-countup';
 
 function Impact() {
   return (
-    <div className='bg-black text-white'>
+    <div className='bg-gray-200'>
         <p className='w-full font-[Anton] h-[4rem] flex items-center justify-center md:text-5xl text-4xl'>OUR IMPACT</p>
         
         <div className='grid grid-cols-3 md:grid-cols-4  lg:grid-cols-5 gap-4 px-4 py-8'>
