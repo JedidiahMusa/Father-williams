@@ -18,7 +18,7 @@ function Mission() {
         HOW WE HELP
       </p>
       <div className=" mx-auto md:grid md:grid-cols-2  lg:grid-cols-3 gap-4">
-        <div data-aos="zoom-out-left" data-aos-once="true"  className="w-full border border-gray-300 border-t-0 flex my-8 flex-col items-center p-2 rounded-lg hover:scale-105 duration-300 ">
+        <div data-aos="zoom-out-left" data-aos-once="true"  className="w-full border border-gray-300 border-t-0 flex my-8 shadow-xl flex-col items-center p-2 rounded-lg hover:scale-105 duration-300 ">
           
           <div className="h-[20rem] bg-yellow-200 flex">
             <img
@@ -31,7 +31,7 @@ function Mission() {
           <p className="text-2xl font-bold text-center py-8">SCHOLARSHIPS</p>
           <p>We provide scholarships opportunities for students.</p>
         </div>
-        <div data-aos="zoom-out-down" data-aos-once="true" className="w-full border border-gray-300 border-t-0 flex my-8 flex-col items-center p-2 rounded-lg hover:scale-105 duration-300 ">
+        <div data-aos="zoom-out-down" data-aos-once="true" className="w-full border border-gray-300 border-t-0 flex my-8 flex-col items-center p-2 rounded-lg shadow-xl hover:scale-105 duration-300 ">
           <div className="h-[20rem] bg-yellow-200 flex">
             <img
               className=" mx-auto w-full object-contain bg-white"
@@ -48,7 +48,7 @@ function Mission() {
             expenses.
           </p>
         </div>
-        <div data-aos="zoom-out-right" data-aos-once="true" className="w-full border border-gray-300 border-t-0 flex my-8 flex-col items-center p-2 rounded-lg hover:scale-105 duration-300 ">
+        <div data-aos="zoom-out-right" data-aos-once="true" className="w-full border border-gray-300 border-t-0 flex my-8 flex-col shadow-xl items-center p-2 rounded-lg hover:scale-105 duration-300 ">
           <div className="h-[20rem] bg-yellow-200 flex">
             <img
               className=" mx-auto w-full object-contain bg-white"

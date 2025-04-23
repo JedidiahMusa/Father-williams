@@ -2,6 +2,7 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
+
 function Contact() {
 
   const responsive = {
@@ -32,7 +33,7 @@ function Contact() {
       </p>
       <p className="underline cursor-pointer text-blue-900 text-2xl">info@abbacharitabletrust.org</p>
       <div className="w-full flex items-center justify-center">
-        <button className="bg-[#ffb300] flex w-full md:w-[50%] hover:scale-102 md:text-[1.1rem] text-black font-bold py-5 px-4 items-center justify-center rounded-full mt-4">DOWNLOAD SCHOLARSHIP FORMS</button>
+        <button className="bg-[#2f5ec4] text-white flex w-full md:w-[50%] hover:scale-102 md:text-[1.1rem] font-bold py-5 px-4 items-center justify-center rounded-full mt-4">DOWNLOAD SCHOLARSHIP FORMS</button>
       </div>
 
 

@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="w-full px-4 bg-gray-200 pb-4 ">
+    <div className="w-full px-4 text-center bg-gray-200 pb-4 ">
       <p className="w-full flex font-[Anton] items-center text-4xl md:text-5xl justify-center h-[3.5rem] md:h-[4rem] ">
         WHO ARE WE?
       </p>
@@ -29,7 +29,7 @@ function About() {
       </div>
       <div className="w-full flex items-center justify-center">
     
-          <button className="bg-[#ffb300] md:w-[50%] hover:scale-102 text-black h-[4rem] font-bold py-3 flex items-center justify-center w-full rounded-full mt-4 mb-4">
+          <button className="bg-[#2f5ec4] md:w-[50%] hover:scale-102 h-[4rem] font-bold py-3 flex items-center justify-center w-full rounded-full mt-4 mb-4">
             MEET OUR TEAM
           </button>
         
