@@ -27,9 +27,11 @@ function About() {
           </li>
         </ol>
       </div>
-      <div className="w-full flex items-center justify-center">
-    
-          <button className="bg-[#2f5ec4] md:w-[50%] hover:scale-102 h-[4rem] font-bold py-3 flex items-center justify-center w-full rounded-full mt-4 mb-4">
+      <div className="w-full md:flex items-center px-12 gap-6 justify-center">
+      <button className="bg-[#2f5ec4] md:w-[50%] hover:scale-102 h-[3.3rem] font-bold py-3 flex items-center justify-center w-full rounded-full mt-4 mb-4">
+          DOWNLOAD SCHOLARSHIP FORMS
+        </button>
+          <button className="bg-[#2f5ec4] md:w-[50%] hover:scale-102 h-[3.3rem] font-bold py-3 flex items-center justify-center w-full rounded-full mt-4 mb-4">
             MEET OUR TEAM
           </button>
         
