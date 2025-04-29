@@ -59,10 +59,10 @@ function Header() {
         </div>
 
         <div className="w-full items-center justify-center lg:flex-1 px-16 mt-4 md:flex gap-6">
-          <button className="bg-[#2f5ec4] hover:bg-[#2f75c4] lg:h-[4rem] hover:scale-102 shadow-sm shadow-[#6b69da] h-[3.3rem] font-bold px-7 rounded-full w-full lg:text-[1.2rem] md:mb-0 mb-4">
+          <button className="bg-[#2f5ec4] lg:h-[4rem] hover:scale-104 shadow-sm shadow-[#6b69da] h-[3.3rem] font-bold px-7 rounded-full w-full lg:text-[1.2rem] md:mb-0 mb-4">
             APPLY FOR A SCHOLARSHIP
           </button>
-          <button className="bg-[#2f5ec4] lg:h-[4rem] hover:bg-[#2f75c4] hover:scale-102 px-7 shadow-sm shadow-[#6b69da] h-[3.3rem] font-bold w-full lg:text-[1.2rem] rounded-full">
+          <button className="bg-[#2f5ec4] lg:h-[4rem] hover:scale-104 px-7 shadow-sm shadow-[#6b69da] h-[3.3rem] font-bold w-full lg:text-[1.2rem] rounded-full">
             REQUEST A BOREHOLE
           </button>
         </div>

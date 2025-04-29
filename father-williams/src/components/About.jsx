@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="w-full px-4 text-center bg-gray-200 pb-4 ">
+       <div className="w-full rounded-2xl px-4 text-center pb-4 ">
       <p className="w-full flex font-[Anton] items-center text-4xl md:text-5xl justify-center h-[3.5rem] md:h-[4rem] ">
         WHO ARE WE?
       </p>
@@ -37,6 +37,7 @@ function About() {
         
       </div>
     </div>
+   
   );
 }
 

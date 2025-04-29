@@ -24,7 +24,7 @@ function Contact() {
   };
   return (
       <Carousel
-            className=" my-4 flex-1  w-full"
+            className=" my-4 w-full"
               swipeable={true}
               draggable={true}
               responsive={responsive}

@@ -1,7 +1,7 @@
 import React from "react";
-import scholarship from "../assets/scholarship.png";
+import scholarship from "../assets/scholarship.jpeg";
 import internship from "../assets/intenship.png";
-import allowance from "../assets/allowance.png";
+import allowance from "../assets/allowance.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init({
@@ -17,7 +17,7 @@ function Mission() {
       <p className="w-full h-[4rem] md:text-5xl font-[Anton] flex items-center justify-center text-4xl ">
         HOW WE HELP
       </p>
-      <div className=" mx-auto md:grid overflow-hidden md:grid-cols-2  lg:grid-cols-3 gap-4">
+      <div className=" mx-auto md:grid overflow-hidden md:grid-cols-3 gap-4">
         <div data-aos="zoom-out-left" data-aos-once="true"  className="w-full border border-gray-300 border-t-0 flex my-8 shadow-xl flex-col items-center p-2 rounded-lg duration-300 ">
           
           <div className="h-[20rem] bg-yellow-200 flex">
