@@ -7,7 +7,7 @@ function Partners() {
        <div className="w-[94%] lg:w-[97%]">
       <p className="w-full h-[4rem] font-[Anton] font-light flex bg-gray-200 items-center justify-center md:text-5xl text-4xl ">ACADEMIC PARTNERS</p>
       <div className=" flex items-center rounded-b-4xl bg-gray-200 justify-center">
-        <Marquee pauseOnHover={true} speed={100} className="overflow-y-hidden py-8 rounded-b-4xl bg-gray-200">
+        <Marquee pauseOnHover={true} speed={100} className="overflow-hidden py-8 rounded-b-4xl bg-gray-200">
           <p className="text-4xl mx-8 font-[Anton]">
             Federal University of Applied Sciences, Kachia
           </p>

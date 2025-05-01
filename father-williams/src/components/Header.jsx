@@ -16,7 +16,7 @@ function Header() {
       className="relative w-full lg:h-screen bg-cover bg-center bg-no-repeat text-white"
     >
 
-      <div className="absolute inset-0 bg-black/60 backdrop-blur-sm z-10"></div>
+      <div className="absolute inset-0 bg-black/70 backdrop-blur-xs z-10"></div>
 
   
       <div className="relative z-20 w-full h-full flex flex-col justify-between pb-4">
@@ -48,14 +48,14 @@ function Header() {
             data-aos="zoom-in"
             data-aos-once="true"
             data-aos-duration="1500"
-            className="flex text-center font-[Oswald] py-8 w-full justify-center text-4xl md:text-6xl lg:text-7xl"
+            className="flex text-center font-[Oswald] py-8 w-full justify-center text-3xl md:text-5xl lg:text-6xl"
           >
             PEACE AND EDUCATION ARE THE GREATEST EQUALIZERS.
           </p>
           <p  data-aos="flip-up"
             data-aos-once="true"
             data-aos-duration="1500"
-            className="flex text-center w-full font-[Oswald] justify-center text-4xl md:text-6xl lg:text-7xl">IMPACTING LIVES FOR FUTURE GENERATIONS</p>
+            className="flex text-center w-full font-[Oswald] justify-center text-3xl md:text-5xl lg:text-6xl">IMPACTING LIVES FOR FUTURE GENERATIONS</p>
         </div>
 
         <div className="w-full items-center justify-center lg:flex-1 px-16 mt-4 md:flex gap-6">

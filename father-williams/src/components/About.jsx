@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-       <div className="w-full rounded-2xl px-4 text-center pb-4 ">
+       <div className="w-full px-4 bg-gray-200 pb-4 ">
       <p className="w-full flex font-[Anton] items-center text-4xl md:text-5xl justify-center h-[3.5rem] md:h-[4rem] ">
         WHO ARE WE?
       </p>
@@ -28,10 +28,10 @@ function About() {
         </ol>
       </div>
       <div className="w-full md:flex items-center px-12 gap-6 justify-center">
-      <button className="bg-[#2f5ec4] md:w-[50%] hover:scale-102 h-[3.3rem] font-bold py-3 flex items-center justify-center w-full rounded-full mt-4 mb-4">
+      <button className="bg-[#2f5ec4] shadow-md shadow-black duration-300 md:w-[50%] hover:scale-102 h-[3.3rem] font-bold py-3 flex items-center justify-center w-full rounded-full mt-4 mb-4">
           DOWNLOAD SCHOLARSHIP FORMS
         </button>
-          <button className="bg-[#2f5ec4] md:w-[50%] hover:scale-102 h-[3.3rem] font-bold py-3 flex items-center justify-center w-full rounded-full mt-4 mb-4">
+          <button className="bg-[#2f5ec4] shadow-md duration-300 shadow-black md:w-[50%] hover:scale-102 h-[3.3rem] font-bold py-3 flex items-center justify-center w-full rounded-full mt-4 mb-4">
             MEET OUR TEAM
           </button>
         
