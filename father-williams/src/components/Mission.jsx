@@ -29,7 +29,7 @@ function Mission() {
     },
     {
       image: internship,
-      title: "INTERNSHIP ",
+      title: "INTERNSHIP",
       description:
         "Scholars are paired with corporate and industry partners to apply their learning in a practical setting.",
       aos: "zoom-out-right",
@@ -48,20 +48,20 @@ function Mission() {
             key={index}
             data-aos={card.aos}
             data-aos-once="true"
-            className="w-full border border-gray-300 h-full border-t-0 flex my-8 shadow-xl flex-col items-center rounded-lg duration-300"
+            data-aos-duration="800"
+            className="relative ease-in-out hover:scale-105 duration-500 group w-full h-[20rem] my-8 overflow-hidden rounded-lg shadow-xl"
           >
-            <div className="absolute inset-0 bg-black/60 backdrop-blur-xs z-10"></div>
-            <div className=" h-full w-full">
-              <img
-                className=" h-full w-full object-cover"
-                src={card.image}
-                alt={card.title}
-              />
-            </div>
+            <img
+              className="w-full group-hover:scale-110 duration-500 h-full object-cover"
+              src={card.image}
+              alt={card.title}
+            />
 
-            <div className=" px-8 py-8 z-30 absolute text-white ">
-              <p className="py-4 text-3xl font-bold">{card.title}</p>
-              <p className="text-[1.2rem]">{card.description}</p>
+            <div className="absolute inset-0 bg-black/70 opacity-0 group-hover:opacity-100 transition duration-300 z-10" />
+
+            <div className="absolute z-20 text-white opacity-0 group-hover:opacity-100 transition duration-300 px-6 py-6 top-0 left-0 right-0 bottom-0 flex flex-col justify-center">
+              <p className="text-2xl font-bold mb-2">{card.title}</p>
+              <p className="text-base">{card.description}</p>
             </div>
           </div>
         ))}
