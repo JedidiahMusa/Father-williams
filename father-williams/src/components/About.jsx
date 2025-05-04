@@ -19,7 +19,7 @@ function About() {
       <p className="w-full flex font-[Anton] items-center text-4xl md:text-5xl justify-center h-[3.5rem] md:h-[4rem] ">
         OUR OBJECTIVE
       </p>
-      <p className="text-2xl mt-4 ">
+      <p className="text-2xl mt-4 text-center ">
         The Father Williams Abba Charitable Trust is a FIRS approved 501.c3
         non-profit organization, and it has a tri-fold objective...
       </p>
@@ -35,7 +35,7 @@ function About() {
             data-aos="fade-left"
             data-aos-duration="700"
             data-aos-once="true"
-            className="flex min-h-[25rem] flex-col border-1 rounded-3xl border-gray-300 items-center justify-center mt-4 w-full md:flex-row "
+            className="flex min-h-[25rem]  gap-4 lg:px-[4rem] flex-col border-1 rounded-3xl border-gray-300 items-center justify-center mt-4 w-full md:flex-row "
           >
             <motion.div
               animate={{
@@ -72,7 +72,7 @@ function About() {
             data-aos="fade-right"
             data-aos-duration="700"
             data-aos-once="true"
-            className="flex min-h-[25rem] flex-col-reverse items-center justify-center mt-4 w-full md:flex-row "
+            className="flex min-h-[25rem] border-1 rounded-3xl border-gray-300 gap-4 lg:px-[4rem] flex-col-reverse items-center justify-center mt-4 w-full md:flex-row "
           >
             <p className="p-8 md:p-4 text-[1.2rem] ">
               <p className="font-bold ">2. SCHOLARSHIP OPPORTUNITIES </p>
@@ -107,7 +107,7 @@ function About() {
             data-aos="fade-left"
             data-aos-duration="700"
             data-aos-once="true"
-            className="flex min-h-[25rem] flex-col items-center justify-center mt-4 w-full md:flex-row "
+            className="flex min-h-[25rem] flex-col border-1 rounded-3xl border-gray-300 gap-4 lg:px-[4rem] items-center justify-center mt-4 w-full md:flex-row "
           >
             
             <motion.div
@@ -146,7 +146,7 @@ function About() {
       </div>
       <div className="w-full md:flex items-center px-12 gap-6 justify-center">
         <button className="bg-[#2f5ec4] shadow-md shadow-black duration-300 md:w-[50%] hover:scale-102 h-[3.3rem] font-bold py-3 flex items-center justify-center w-full rounded-full mt-4 mb-4">
-          DOWNLOAD SCHOLARSHIP FORMS
+          SCHOLARSHIP FORMS
         </button>
         <button className="bg-[#2f5ec4] shadow-md duration-300 shadow-black md:w-[50%] hover:scale-102 h-[3.3rem] font-bold py-3 flex items-center justify-center w-full rounded-full mt-4 mb-4">
           MEET OUR TEAM

@@ -4,7 +4,7 @@ import logo from "../assets/logo.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { ReactTyped } from "react-typed";
-import { FaArrowTurnDown } from "react-icons/fa6";
+import { FaArrowTurnUp } from "react-icons/fa6";
 import { motion } from "framer-motion";
 
 function Header() {
@@ -82,7 +82,7 @@ function Header() {
           >
             <p className="flex text-[1.2rem] font-light font-[Anton]">
               scroll
-              <FaArrowTurnDown size={25} className="ml-4 text-[#2f5ec4]" />
+              <FaArrowTurnUp size={25} className="ml-4 text-[#2f5ec4]" />
             </p>
           </motion.div>
         </div>

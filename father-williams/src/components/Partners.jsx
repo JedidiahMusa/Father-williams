@@ -22,22 +22,22 @@ function Partners() {
             gradient
             className="overflow-hidden py-2 mt-6 w-full"
           >
-            <div className="mx-8 h-[7rem] lg:mx-13 "> 
+            <div className="mx-4 md:mx-8 h-[7rem] lg:mx-13 "> 
               <img src={a} alt="" className="w-full h-full object-cover" />
             </div>
-            <div className="mx-8 h-[7rem] lg:mx-13 ">
+            <div className="mx-4 md:mx-8 h-[7rem] lg:mx-13 ">
               <img src={b} alt="" className="w-full h-full object-cover" />
             </div>
-            <div className="mx-8 h-[7rem] lg:mx-13 ">
+            <div className="mx-4 md:mx-8 h-[7rem] lg:mx-13 ">
               <img src={c} alt="" className="w-full h-full object-cover" />
             </div>
-            <div className="mx-8 h-[7rem] lg:mx-13 ">
+            <div className="mx-4 md:mx-8 h-[7rem] lg:mx-13 ">
               <img src={d} alt="" className="w-full h-full object-cover" />
             </div>
-            <div className="mx-8 h-[7rem] lg:mx-13 ">
+            <div className="mx-4 md:mx-8 h-[7rem] lg:mx-13 ">
               <img src={e} alt="" className="w-full h-full object-cover" />
             </div>
-            <div className="mx-8 h-[7rem] lg:mx-13 ">
+            <div className="mx-4 md:mx-8 h-[7rem] lg:mx-13 ">
               <img src={f} alt="" className="w-full h-full object-cover" />
             </div>
               

@@ -49,7 +49,7 @@ function Mission() {
             data-aos={card.aos}
             data-aos-once="true"
             data-aos-duration="800"
-            className="relative ease-in-out hover:scale-105 duration-500 group w-full h-[20rem] my-8 overflow-hidden rounded-lg shadow-xl"
+            className="relative ease-in-out hover:scale-105 duration-500 group w-full h-[20rem] my-8 overflow-hidden rounded-lg shadow-lg "
           >
             <img
               className="w-full group-hover:scale-110 duration-500 h-full object-cover"
