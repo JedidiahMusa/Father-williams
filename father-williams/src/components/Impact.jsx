@@ -1,10 +1,12 @@
 import React from 'react'
 import CountUp from 'react-countup';
+import { Element } from 'react-scroll';
 
 
 function Impact() {
   return (
-    <div className='w-full flex justify-center'>
+    <Element name="impact">
+        <div className='w-full flex justify-center'>
        <div className='w-[94%] lg:w-[97%] pt-4 rounded-t-4xl'>
         <p className='w-full font-[Anton] h-[4rem] flex items-center justify-center md:text-5xl text-4xl'>OUR IMPACT</p>
         
@@ -34,6 +36,8 @@ function Impact() {
         
     </div> 
     </div>
+    </Element>
+    
     
   )
 }

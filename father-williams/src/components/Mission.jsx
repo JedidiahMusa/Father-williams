@@ -4,6 +4,8 @@ import internship from "../assets/internship.jpeg";
 import allowance from "../assets/allowance.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Element } from "react-scroll";
+
 
 AOS.init({
   offset: 200,
@@ -37,7 +39,8 @@ function Mission() {
   ];
 
   return (
-    <div className="w-full px-4 bg-white">
+    <Element name="howWeHelp">
+      <div className="w-full px-4 bg-white">
       <p className="w-full h-[4rem] md:text-5xl font-[Anton] flex items-center justify-center text-4xl">
         HOW WE HELP
       </p>
@@ -67,6 +70,8 @@ function Mission() {
         ))}
       </div>
     </div>
+    </Element>
+    
   );
 }
 

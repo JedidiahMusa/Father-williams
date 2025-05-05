@@ -8,6 +8,7 @@ import water2 from "../assets/water2.jpeg";
 import scholarships from "../assets/scholarships.jpeg";
 import scholarships2 from "../assets/scholarships2.jpeg";
 import { motion } from "framer-motion";
+import { Element } from 'react-scroll';
 
 function About() {
   useEffect(() => {
@@ -15,7 +16,8 @@ function About() {
   }, []);
 
   return (
-    <div className="w-full px-4 bg-gray-200 pb-4 ">
+    <Element name="objective">
+      <div className="w-full px-4 bg-gray-200 py-4 ">
       <p className="w-full flex font-[Anton] items-center text-4xl md:text-5xl justify-center h-[3.5rem] md:h-[4rem] ">
         OUR OBJECTIVE
       </p>
@@ -24,13 +26,8 @@ function About() {
         non-profit organization, and it has a tri-fold objective...
       </p>
       <div className="my-6">
-        
-          
-        
-
-        <div className="overflow-hidden "
-        
-        >
+ 
+        <div className="overflow-hidden ">
           <div
             data-aos="fade-left"
             data-aos-duration="700"
@@ -145,14 +142,16 @@ function About() {
      
       </div>
       <div className="w-full md:flex items-center px-12 gap-6 justify-center">
-        <button className="bg-[#2f5ec4] shadow-md shadow-black duration-300 md:w-[50%] hover:scale-102 h-[3.3rem] font-bold py-3 flex items-center justify-center w-full rounded-full mt-4 mb-4">
+        <button className="bg-blue-400 shadow-md shadow-black duration-300 md:w-[50%] hover:scale-102 h-[3.3rem] font-bold py-3 flex items-center justify-center w-full rounded-full mt-4 mb-4">
           SCHOLARSHIP FORMS
         </button>
-        <button className="bg-[#2f5ec4] shadow-md duration-300 shadow-black md:w-[50%] hover:scale-102 h-[3.3rem] font-bold py-3 flex items-center justify-center w-full rounded-full mt-4 mb-4">
+        <button className="bg-blue-400 shadow-md duration-300 shadow-black md:w-[50%] hover:scale-102 h-[3.3rem] font-bold py-3 flex items-center justify-center w-full rounded-full mt-4 mb-4">
           MEET OUR TEAM
         </button>
       </div>
     </div>
+    </Element>
+    
   );
 }
 

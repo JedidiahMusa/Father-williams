@@ -4,26 +4,25 @@ function Footer() {
   return (
     <footer className="bg-black text-white py-10 px-6">
       <div className="max-w-3xl mx-auto flex flex-col items-center text-center space-y-6">
-        
-        {/* Heading */}
         <h2 className="font-[Anton] text-4xl md:text-5xl text-blue-400">
           CONTACT US
         </h2>
-        
-        {/* Address */}
-        <div className="space-y-2 text-lg md:text-xl">
+
+        <div className=" text-lg md:text-xl">
           <p>Father Williams Abba Charitable Trust</p>
           <p>14301 N. 87 St., Ste. 208</p>
           <p>Scottsdale, AZ 85260</p>
           <p>Phone: 480-584-3517</p>
         </div>
 
-        {/* Email */}
-        <a href="mailto:info@abbacharitabletrust.org" className="text-blue-400 hover:underline text-lg md:text-xl">
+        
+
+        <a
+          href="mailto:info@abbacharitabletrust.org"
+          className="text-blue-400 hover:underline text-lg md:text-xl"
+        >
           info@abbacharitabletrust.org
         </a>
-
-        
       </div>
     </footer>
   );

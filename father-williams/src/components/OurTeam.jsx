@@ -1,9 +1,11 @@
 import React from 'react'
 import fatherPic from "../assets/fatherPic.jpg"
+import { Element } from 'react-scroll'
 
 function OurTeam() {
   return (
-    <div className='w-full px-4'>
+    <Element name="ourteam">
+      <div className='w-full px-4'>
         <p  className='w-full h-[4rem] flex items-center font-[Anton] justify-center text-4xl md:text-5xl'>OUR TEAM</p>
         <div className='flex flex-col h-full md:grid grid-cols-2'>
             <div className='flex flex-col'>
@@ -30,6 +32,8 @@ function OurTeam() {
         </div>
 
     </div>
+    </Element>
+    
   )
 }
 

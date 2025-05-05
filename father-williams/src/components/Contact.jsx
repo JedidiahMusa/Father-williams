@@ -25,7 +25,7 @@ function Contact() {
       <button
         onClick={onClick}
         className={`w-3 h-3 rounded-full mx-1 transition-all duration-300 ${
-          active ? "bg-blue-600" : "bg-gray-300"
+          active ? "bg-blue-400" : "bg-gray-300"
         }`}
       />
     </li>
@@ -34,10 +34,10 @@ function Contact() {
     <div className="absolute z-10" style={{ top: "45%", left: "5%" }}>
       <button
         onClick={onClick}
-        className="group p-3 rounded-full hidden shadow-md duration-500 bg-white group-hover:block hover:bg-blue-600 ease-in-out transition-all"
+        className="group p-3 rounded-full hidden shadow-md duration-500 bg-white group-hover:block hover:bg-blue-400 ease-in-out transition-all"
       >
         <BiSolidLeftArrow
-          className="text-blue-600 group-hover:text-blue-600 duration-500 ease-in-out hover:text-white transition-all"
+          className="text-blue-400 group-hover:text-blue-400 duration-500 ease-in-out hover:text-white transition-all"
           size={25}
         />
       </button>
@@ -50,14 +50,15 @@ function Contact() {
     <div className="absolute right-0 z-10" style={{ top: "45%", right: "5%" }}>
       <button
         onClick={onClick}
-        className="group p-3 rounded-full shadow-md ease-in-out duration-500 bg-white group-hover:block hidden hover:bg-blue-600 transition-all"
+        className="group p-3 rounded-full shadow-md ease-in-out duration-500 bg-white group-hover:block hidden hover:bg-blue-400 transition-all"
       >
-        <BiSolidRightArrow className="transition-all duration-500 ease-in-out text-blue-600 group-hover:text-blue-600 hover:text-white" size={25} />
+        <BiSolidRightArrow className="transition-all duration-500 ease-in-out text-blue-400 group-hover:text-blue-400 hover:text-white" size={25} />
       </button>
     </div>
   );
   
   return (
+    
     <div className="relative group">
       <Carousel
       className=" my-8 gap-[1rem] py-8 mx-4 md:mx-8 lg:mx-14 flex"
