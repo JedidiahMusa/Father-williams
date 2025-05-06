@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.jpg";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-scroll";
 import { useState } from "react";
@@ -23,11 +23,11 @@ function Navbar() {
   return (
 
     <div className="w-full ">
-      <nav className="fixed w-full bg-gray-200 h-[4.5rem] lg:h-[5rem] shadow-md z-50">
+      <nav className="fixed w-full bg-[#000000f1] border-gray-400 rounded-4xl border-1  h-[4.5rem] lg:h-[5rem] shadow-md z-50">
         <div className=" h-full w-full mx-auto px-4  flex items-center justify-between">
           {/* Logo */}
-          <div className="w-[25%] lg:w-[15%] flex items-center justify-center h-full ">
-            <img src={logo} className="object-contain w-full h-full " alt="" />
+          <div className=" flex items-center justify-center h-full ">
+            <img src={logo} className="object-contain rounded-4xl w-full h-full " alt="" />
           </div>
 
           {/* Desktop Menu */}
@@ -39,9 +39,10 @@ function Navbar() {
                 smooth={true}
                 duration={500}
                 offset={-60}
-                className="cursor-pointer  text-black duration-300 hover:scale-107 hover:text-blue-400 transition"
+                className="cursor-pointer group relative text-gray-100"
               >
                 {link.name}
+                <span class="absolute left-0 -bottom-0.5 h-[3px] w-0 bg-blue-400 transition-all duration-400 group-hover:w-full"></span>
               </Link>
             ))}
           </div>
@@ -60,7 +61,7 @@ function Navbar() {
 
         {/* Mobile Dropdown */}
         {isOpen && (
-          <div className="md:hidden bg-gray-200 pb-4">
+          <div className="md:hidden border-1 rounded-2xl border-gray-500 bg-[#000000f1] pb-4">
             {navLinks.map((link) => (
               <Link
                 key={link.to}
@@ -69,7 +70,7 @@ function Navbar() {
                 duration={500}
                 offset={-60}
                 onClick={() => setIsOpen(false)}
-                className="block py-5 text-gray-700 px-4 hover:bg-gray-300 hover:text-blue-600 duration-500 ease-in-out transition"
+                className="block py-5 text-gray-100 px-4 rounded-2xl hover:bg-gray-400 hover:text-blue-600 duration-500 ease-in-out transition"
               >
                 {link.name}
               </Link>

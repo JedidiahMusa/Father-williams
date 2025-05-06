@@ -45,10 +45,10 @@ function Header() {
 
         {/* Updated Button Container */}
         <div className="w-full flex flex-col py-8 md:flex-row items-center justify-center px-4 md:px-16 mt-4 gap-6">
-          <button className="bg-blue-400 h-[3.3rem] md:h-[3.7rem] hover:scale-104 shadow-sm shadow-[#6b69da] font-bold px-7 rounded-full w-full md:w-auto lg:text-[1.2rem]">
+          <button className="bg-blue-400 shadow-black shadow-md h-[3.3rem] md:h-[3.7rem] hover:scale-104  font-bold px-7 rounded-full w-full md:w-auto lg:text-[1.2rem]">
             APPLY FOR A SCHOLARSHIP
           </button>
-          <button className="bg-blue-400 h-[3.3rem] md:h-[3.7rem] hover:scale-104 px-7 shadow-sm shadow-[#6b69da] font-bold w-full md:w-auto lg:text-[1.2rem] rounded-full">
+          <button className="bg-blue-400 shadow-black shadow-md h-[3.3rem] md:h-[3.7rem] hover:scale-104 px-7  font-bold w-full md:w-auto lg:text-[1.2rem] rounded-full">
             REQUEST A BOREHOLE
           </button>
         </div>
