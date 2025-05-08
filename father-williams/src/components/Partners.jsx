@@ -9,6 +9,15 @@ import f from "../assets/6.png";
 
 
 function Partners() {
+
+  const marqueeData = [
+    {img:a, id:1},
+    {img:b, id:2},
+    {img:c, id:3},
+    {img:d, id:4},
+    {img:e, id:5},
+    {img:f, id:6},
+  ]
   return (
     <div className="w-full flex justify-center">
       <div className="w-[94%] lg:w-[97%]">
@@ -19,57 +28,26 @@ function Partners() {
           <Marquee
             pauseOnHover={true}
             speed={30}
-            gradient
+            
             className="overflow-hidden py-2 mt-6 w-full"
           >
-            <div className="mx-4 md:mx-8 h-[7rem] lg:mx-13 "> 
-              <img src={a} alt="" className="w-full h-full object-cover" />
+            {marqueeData.map((div)=>(
+              <div key={div.id} className="mx-4 md:mx-8 h-[7rem] lg:mx-13 "> 
+              <img src={div.img} alt="" className="w-full h-full object-cover" />
             </div>
-            <div className="mx-4 md:mx-8 h-[7rem] lg:mx-13 ">
-              <img src={b} alt="" className="w-full h-full object-cover" />
-            </div>
-            <div className="mx-4 md:mx-8 h-[7rem] lg:mx-13 ">
-              <img src={c} alt="" className="w-full h-full object-cover" />
-            </div>
-            <div className="mx-4 md:mx-8 h-[7rem] lg:mx-13 ">
-              <img src={d} alt="" className="w-full h-full object-cover" />
-            </div>
-            <div className="mx-4 md:mx-8 h-[7rem] lg:mx-13 ">
-              <img src={e} alt="" className="w-full h-full object-cover" />
-            </div>
-            <div className="mx-4 md:mx-8 h-[7rem] lg:mx-13 ">
-              <img src={f} alt="" className="w-full h-full object-cover" />
-            </div>
-              
-           
+            ))}
           </Marquee>
           <Marquee
             pauseOnHover={true}
             speed={30}
-            gradient
             direction="right"
             className="overflow-hidden py-2 mt-6 w-full"
           >
-            <div className="mx-8 lg:mx-13 h-[7rem]"> 
-              <img src={a} alt="" className="w-full h-full object-cover" />
+            {marqueeData.map((div)=>(
+              <div key={div.id} className="mx-4 md:mx-8 h-[7rem] lg:mx-13 "> 
+              <img src={div.img} alt="" className="w-full h-full object-cover" />
             </div>
-            <div className="mx-8 lg:mx-13 h-[7rem]">
-              <img src={b} alt="" className="w-full h-full object-cover" />
-            </div>
-            <div className="mx-8 lg:mx-13 h-[7rem]">
-              <img src={c} alt="" className="w-full h-full object-cover" />
-            </div>
-            <div className="mx-8 lg:mx-13 h-[7rem]">
-              <img src={d} alt="" className="w-full h-full object-cover" />
-            </div>
-            <div className="mx-8 lg:mx-13 h-[7rem]">
-              <img src={e} alt="" className="w-full h-full object-cover" />
-            </div>
-            <div className="mx-8 lg:mx-13 h-[7rem]">
-              <img src={f} alt="" className="w-full h-full object-cover" />
-            </div>
-              
-           
+            ))}
           </Marquee>
       
       </div>

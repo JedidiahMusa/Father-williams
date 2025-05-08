@@ -10,7 +10,7 @@ import scholarships2 from "../assets/scholarships2.jpeg";
 import { motion } from "framer-motion";
 import { Element } from 'react-scroll';
 
-function About() {
+function Objective() {
   useEffect(() => {
     Aos.init();
   }, []);
@@ -141,11 +141,11 @@ function About() {
 
      
       </div>
-      <div className="w-full md:flex items-center px-12 gap-6 justify-center">
-        <button className="bg-blue-400 shadow-md shadow-black duration-300 md:w-[50%] hover:scale-102 h-[3.3rem] font-bold py-3 flex items-center justify-center w-full rounded-full mt-4 mb-4">
+      <div className="w-full flex flex-col py-4 md:flex-row items-center justify-center px-4 md:px-16 mt-2 gap-6">
+        <button className="bg-[#2563EB] shadow-sm shadow-black duration-200 md:w-[50%] hover:bg-transparent hover:border-2 h-[3rem] font-bold py-3 hover:shadow-none flex items-center justify-center w-[60%] rounded-full">
           SCHOLARSHIP FORMS
         </button>
-        <button className="bg-blue-400 shadow-md duration-300 shadow-black md:w-[50%] hover:scale-102 h-[3.3rem] font-bold py-3 flex items-center justify-center w-full rounded-full mt-4 mb-4">
+        <button className="bg-[#2563EB] shadow-sm shadow-black duration-200 md:w-[50%] hover:bg-transparent hover:border-2 h-[3rem] font-bold py-3 hover:shadow-none flex items-center justify-center w-[60%] rounded-full">
           MEET OUR TEAM
         </button>
       </div>
@@ -155,4 +155,4 @@ function About() {
   );
 }
 
-export default About;
+export default Objective;
