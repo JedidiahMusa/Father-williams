@@ -51,13 +51,16 @@ function HeroSection() {
           </div>
 
           {/*buttons*/}
-          <div className="w-full flex flex-col py-4 md:flex-row items-center justify-center px-4 md:px-16 mt-2 gap-6">
-            <button className="bg-[#2563EB] shadow-sm shadow-white duration-300 hover:bg-transparent hover:border-2 h-[3rem] font-bold py-3 hover:shadow-none flex items-center justify-center w-[60%] rounded-full">
+          <div className="w-full flex justify-center ">
+            <div className="w-full flex flex-col py-4 md:flex-row items-center justify-center px-4 md:px-16 mt-2 gap-6 lg:w-[70%]">
+              <button className="bg-[#2563EB] shadow-white duration-300 hover:bg-transparent hover:border-2 h-[3rem] font-bold py-3 hover:shadow-none flex items-center justify-center w-[60%] rounded-full">
               APPLY FOR A SCHOLARSHIP
             </button>
-            <button className="bg-[#2563EB] shadow-sm shadow-white duration-300 hover:bg-transparent hover:border-2 h-[3rem] font-bold py-3 hover:shadow-none flex items-center justify-center w-[60%] rounded-full">
+            <button className="bg-transparent shadow-white duration-300 hover:bg-[#2563EB] hover:border-none border-2 h-[3rem] font-bold py-3 hover:shadow-none flex items-center justify-center w-[60%] rounded-full">
               REQUEST A BOREHOLE
             </button>
+            </div>
+            
           </div>
 
           <div className="bottom-0 flex items-end justify-center w-full z-10">

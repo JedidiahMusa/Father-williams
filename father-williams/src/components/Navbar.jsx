@@ -33,7 +33,7 @@ function Navbar() {
   return (
 
     <div className="w-full ">
-      <nav className={`fixed w-full h-[4.5rem] border-b-1 border-b-[#4b4b4b] lg:h-[5rem] z-50 ${isScrolled ? "bg-[#000000f1] shadow-md" : "bg-transparent"}`} >
+      <nav className={`fixed w-full h-[4.5rem] lg:h-[5rem] z-50 ${isScrolled ? "bg-[#000000f1] shadow-md" : "bg-transparent"}`} >
         <div className=" h-full w-full mx-auto px-4  flex items-center justify-between">
           {/* Logo */}
           <div className=" flex items-center py-1 justify-center h-full ">
